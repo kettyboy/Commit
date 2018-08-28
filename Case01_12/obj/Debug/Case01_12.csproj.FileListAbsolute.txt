@@ -8,3 +8,13 @@ C:\Users\LiuHB\source\repos\test2\Case01_12\obj\Debug\Case01_12.csproj.GenerateR
 C:\Users\LiuHB\source\repos\test2\Case01_12\obj\Debug\Case01_12.csproj.CoreCompileInputs.cache
 C:\Users\LiuHB\source\repos\test2\Case01_12\obj\Debug\Case01_12.exe
 C:\Users\LiuHB\source\repos\test2\Case01_12\obj\Debug\Case01_12.pdb
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\bin\Debug\Case01_12.exe.config
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\bin\Debug\Case01_12.exe
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\bin\Debug\Case01_12.pdb
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.Form1.resources
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.Properties.Resources.resources
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.csproj.GenerateResource.cache
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.csproj.CoreCompileInputs.cache
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.exe
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.pdb
+C:\Users\LiuHB\Source\Repos\Commit\Case01_12\obj\Debug\Case01_12.csprojAssemblyReference.cache

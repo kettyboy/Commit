@@ -50,10 +50,11 @@ namespace Case01_12
             FontFamily family = new FontFamily("宋体");
             int fontStyle = (int)FontStyle.Bold;
             int emSize = 20;
-            Point origin = new Point(20, 20);
+            Point origin = new Point(0, 0);
             StringFormat format = StringFormat.GenericDefault;
             gpp.AddString(stringText, family, fontStyle, emSize, origin, format);
             this.button1.Region = new Region(gpp);
+            MessageBox("fdf");
         }
 
         private void button1_Click(object sender, EventArgs e)
