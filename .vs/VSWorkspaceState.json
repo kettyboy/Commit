@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Case01_12",
-    "\\Case01_12\\bin",
-    "\\Case01_12\\obj"
+    "\\Case01_12\\Properties"
   ],
-  "SelectedNode": "\\Case01_12\\Form1.cs",
+  "SelectedNode": "\\Case01_12.sln",
   "PreviewInSolutionExplorer": false
 }
