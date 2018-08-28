@@ -54,6 +54,7 @@ namespace Case01_12
             StringFormat format = StringFormat.GenericDefault;
             gpp.AddString(stringText, family, fontStyle, emSize, origin, format);
             this.button1.Region = new Region(gpp);
+            MessageBox("fdf");
         }
 
         private void button1_Click(object sender, EventArgs e)
