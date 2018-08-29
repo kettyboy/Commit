@@ -95,7 +95,7 @@ namespace Case01_12
                     break;
                 case CloseReason.FormOwnerClosing:
                     {
-
+                        MessageBox.Show("用户关闭软件！");
                     }
                     break;
                 case CloseReason.UserClosing:
