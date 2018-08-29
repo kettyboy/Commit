@@ -61,11 +61,17 @@ namespace Case01_12
         private void button1_Click(object sender, EventArgs e)
         {
             //this.Close();
-            Application.Exit();
+            //Application.Exit();
             //if (MessageBox.Show("你确定要退出吗？", "提示信息", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             //{
             //    Application.Exit();
             //}
+            FrmLogin frmLogin = new FrmLogin();
+            if(frmLogin.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+            
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -90,7 +96,7 @@ namespace Case01_12
             {
                 case CloseReason.None:
                     {
-
+                        MessageBox.Show("用户关闭软件！");
                     }
                     break;
                 case CloseReason.FormOwnerClosing:
