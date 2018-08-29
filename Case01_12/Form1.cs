@@ -45,7 +45,7 @@ namespace Case01_12
 
 
 
-            GraphicsPath gpp = new GraphicsPath();
+            /*GraphicsPath gpp = new GraphicsPath();
             string stringText = "退出";
             FontFamily family = new FontFamily("宋体");
             int fontStyle = (int)FontStyle.Bold;
@@ -53,16 +53,59 @@ namespace Case01_12
             Point origin = new Point(0, 0);
             StringFormat format = StringFormat.GenericDefault;
             gpp.AddString(stringText, family, fontStyle, emSize, origin, format);
-            this.button1.Region = new Region(gpp);
-            MessageBox("fdf");
+            this.button1.Region = new Region(gpp);*/
+
+            //MessageBox.Show("yyy","信息提示",MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Close();
+
+            //if (MessageBox.Show("你确定要退出吗？", "提示信息", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            //{
+            //    Application.Exit();
+            //}
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
             if (MessageBox.Show("你确定要退出吗？", "提示信息", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                Application.Exit();
+                //    Application.Exit();
+                e.Cancel = false;
             }
+            else
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+            //    Application.Exit();
+            CloseReason rtCloseReason = e.CloseReason;
+            switch (rtCloseReason)
+            {
+                case CloseReason.None:
+                    {
+
+                    }
+                    break;
+                case CloseReason.FormOwnerClosing:
+                    {
+
+                    }
+                    break;
+                case CloseReason.UserClosing:
+                    {
+                        MessageBox.Show("用户关闭软件！");
+                    }
+                    break;
+            }
+
+
         }
     }
 }
