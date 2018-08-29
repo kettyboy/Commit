@@ -60,8 +60,8 @@ namespace Case01_12
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-
+            //this.Close();
+            Application.Exit();
             //if (MessageBox.Show("你确定要退出吗？", "提示信息", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             //{
             //    Application.Exit();
@@ -103,6 +103,12 @@ namespace Case01_12
                         MessageBox.Show("用户关闭软件！");
                     }
                     break;
+                case CloseReason.ApplicationExitCall:
+                    {
+                        MessageBox.Show("系统关闭软件！");
+                    }
+                    break;
+
             }
 
 
